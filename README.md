@@ -64,6 +64,8 @@ Do đây là extension chạy "cây nhà lá vườn" chưa đưa lên Chrome We
 5. Nhấn nút **Load unpacked** (Tải tiện ích đã giải nén).
 6. Trỏ đến thư mục chứa mã nguồn vừa giải nén. Thế là xong! Tiện ích đã xuất hiện trên trình duyệt của bạn.
 
+LƯU Ý: load đúng folder trong đó chứa các file code. không load các folder lồng nhau.
+Extension dùng được cả trên LMS nhé.
 ---
 
 ## 🛠 Hướng dẫn sử dụng
