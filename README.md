@@ -48,7 +48,7 @@ Trông rất là mệt mỏi đúng không? Với **LMS AI Assistant**, bạn ch
 **4. Thống kê & Quản lý API**
 > *Bảng điều khiển trực quan trên Popup.*
 <img width="975" height="1502" alt="image" src="https://github.com/user-attachments/assets/44edcf72-b055-435a-b082-5f1363822081" />
-<img width="991" height="1414" alt="image" src="https://github.com/user-attachments/assets/7e0ea2f7-4af5-42b5-85a8-7b5d63f84264" />
+<img width="978" height="1523" alt="image" src="https://github.com/user-attachments/assets/6e003b84-db6e-4f72-b2d4-eb49ce68c89e" />
 <img width="987" height="1489" alt="image" src="https://github.com/user-attachments/assets/7d6fb49f-fc68-4742-b724-5b1b14ef78b6" />
 
 ---
