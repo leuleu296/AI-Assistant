@@ -60,8 +60,12 @@ Do extension phục vụ mục đích cá nhân, bạn cài đặt trực tiếp
 
 ## 💡 Các tính năng nổi bật (Tab Tùy chọn)
 
-- 🟢 **Chế độ chấm siêu nhỏ (Micro-Dot):** Thay vì hiện khung giải thích lớn làm biến đổi bố cục câu hỏi, extension chỉ gắn một chấm xanh nhỏ (5px) cạnh đáp án đúng. Người ngoài nhìn vào màn hình sẽ không thấy dấu vết AI. Rê chuột vào chấm để xem giải thích.
-- ⏱️ **Nhịp độ nghỉ khi Hỏi tất cả:** Tùy chỉnh nhịp độ ngẫu nhiên giữa các câu (Nhanh 1-2s, Tự nhiên 3-5s, Thong thả 6-9s) để tránh lỗi quá tải API và mô phỏng nhịp đọc đề tự nhiên.
+- 👥 **Kiểm chứng 2 Model song song (Dual-Model Voting):** Gửi đề thi đến 2 model AI đồng thời (ví dụ: Claude đối chiếu GPT-4o / DeepSeek).
+  - Hỗ trợ cấu hình **Endpoint URL & API Key độc lập** cho Model 2 (ví dụ: Model 1 dùng 9router, Model 2 dùng DeepSeek/OpenAI trực tiếp) hoặc để trống để dùng chung với Model 1.
+  - Khi cả 2 model đồng thuận: hiển thị độ tin cậy 100%.
+  - Khi 2 model lệch đáp án: bôi màu cảnh báo cam nổi bật, hiện rõ phương án của từng model và tự động tạm dừng auto-fill để bạn tự quyết định, bảo vệ điểm thi an toàn tối đa.
+- 🟢 **Chế độ chấm siêu nhỏ (Micro-Dot):** Thay vì hiện khung đáp án và giải thích làm lộ dấu vết bên dưới câu hỏi, extension ẩn hoàn toàn khung kết quả và chỉ gắn một chấm xanh tinh tế (6px) ngay cạnh chữ của đáp án đúng. Rê chuột vào chấm để xem giải thích chi tiết.
+- ⏱️ **Nhịp độ nghỉ khi Hỏi tất cả:** Tùy chỉnh nhịp độ ngẫu nhiên giữa các câu (Nhanh 1-2s, Tự nhiên 3-5s, Thong thả 6-9s) để tránh lỗi quá tải API và mô phỏng nhịp làm bài tự nhiên.
 - ✍️ **Tự động điền đáp án:** Tự động click chọn radio/checkbox hoặc điền số vào ô trống sau khi AI giải xong.
 - 💾 **Bộ nhớ Cache 24h:** Các câu hỏi đã giải sẽ được lưu cache tự động, hỏi lại không tốn thêm token.
 
